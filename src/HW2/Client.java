@@ -5,5 +5,10 @@ public class Client {
         MathSoftware mathematica = new Mathematica();
         MathSoftware mTool = new MTool();
         MathSoftware myMath = new MyMath();
+        mathematica.performSort();
+        mTool.performSort();
+        myMath.performSort();
+        mathematica.setSortStrategy(new MergeSort());
+        mathematica.performSort();
     }
 }
