@@ -8,7 +8,7 @@ public class Client {
         mathematica.performSort();
         mTool.performSort();
         myMath.performSort();
-        mathematica.setSortStrategy(new MergeSort());
-        mathematica.performSort();
+        myMath.setSortStrategy(new MergeSort());
+        myMath.performSort();
     }
 }
