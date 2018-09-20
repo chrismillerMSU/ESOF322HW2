@@ -1,3 +1,7 @@
+/*
+*References geeksforgeeks bubble sort algorithm.
+*https://www.geeksforgeeks.org/bubble-sort/
+*/
 package HW2;
 
 public class BubbleSort implements SortBehavior {
