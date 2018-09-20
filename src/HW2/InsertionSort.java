@@ -1,5 +1,7 @@
 package HW2;
-
+/*This code had been influenced by code from Rajat Mishra
+from https://www.geeksforgeeks.org/insertion-sort/
+ */
 public class InsertionSort implements SortBehavior{
     @Override
     public int[] mathSort(int[] array) {
@@ -16,3 +18,6 @@ public class InsertionSort implements SortBehavior{
         return  array;
     }
 }
+/*This code had been influenced by code from Rajat Mishra
+from https://www.geeksforgeeks.org/insertion-sort/
+ */
