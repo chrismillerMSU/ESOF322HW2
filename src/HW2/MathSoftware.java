@@ -6,7 +6,7 @@ public abstract class MathSoftware {
 
     }
     public int[] performSort(int[] array){
-        sortBehavior.mathSort(array);
+        return sortBehavior.mathSort(array);
     }
     public void setSortStrategy(SortBehavior sb){
         sortBehavior = sb;
