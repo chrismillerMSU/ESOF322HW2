@@ -1,3 +1,8 @@
+/*
+*Connor Morrison
+*Christopher Miller
+*09/16/2018
+*/
 package HW2;
 
 public class Client {
