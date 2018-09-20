@@ -8,16 +8,18 @@ public class Client {
         int[] array = new int[]{7,4,9,2,0,12,15};
         mathematica.performSort(array);
         printArray(array);
+        mTool.performSort(array);
+        printArray(array);
         myMath.performSort(array);
         printArray(array);
-        // mTool.performSort();
-       // myMath.performSort();
-       // myMath.setSortStrategy(new MergeSort());
-       // myMath.performSort();
+        myMath.setSortStrategy(new MergeSort());
+        myMath.performSort(array);
+        printArray(array);
     }
     public static void printArray(int[] array){
         for(int i: array){
             System.out.print(i + ",");
         }
+        System.out.println();
     }
 }
